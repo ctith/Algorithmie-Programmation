@@ -73,6 +73,15 @@ ou non. Elle prend au moins les deux mêmes paramètres que ceux de la question 
 d’autres, il faudra leur donner une valeur par défaut. On précise que les comparaisons entre chaînes
 de caractères utilisent aussi les opérateurs <, ==, >. 
 
+Input :
+```python
+
+```
+Output :
+```python
+
+```
+
 ## 6) Normalement, les positions des mots "UN" et "DEUX" n’ont pas changé mais il faut de nouveau déterminer le nombre d’itérations effectuées pour trouver ces deux positions avec la recherche dichotomique. (2 points)
 
 Input :
@@ -99,3 +108,5 @@ Output :
 
 ## 8) Quel est, au pire, le coût d’une recherche dichotomique ? (1 point)
 
+Lors de la recherche dichotomique, à chaque itération, on divise par deux l’ensemble dans lequel la recherche s’effectue, au départ n, puis n/2, puis n/4 jusqu’àă ce que n/2^k soit nul c’est-à-dire k = partie entière de ln(n) / ln(2)
+il y a au plus k itérations donc le coût de l’algorithme est en O(ln(n)).
