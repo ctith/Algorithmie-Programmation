@@ -3,13 +3,17 @@
 1) Lire le fichier texte01.txt et construire une liste avec tous ces mots. (4 points)
 Input :
 ```python
-texte = open("texte01.txt", "r")
-mot = []
+def liste_mot(file):
+    texte = open(file, "r")
+    mot = []
 
-for ligne in texte :
-    mot.append(ligne.replace ("\n", ""))
-    
-print mot
+    for ligne in texte :
+        mot.append(ligne.replace ("\n", ""))
+
+    return mot
+
+liste = liste_mot("texte01.txt")
+print liste
 ```
 Output :
 ```python
