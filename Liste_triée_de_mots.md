@@ -97,14 +97,9 @@ Output :
 > * On cherche la meilleure majoration du coût de la recherche non dichotomique en fonction de la taille n de la
 liste.
 
-Input :
-```python
+Lors d’une recherche simple, au pire, l’élément cherche sera en dernière position, ce qui signifie n itérations pour le trouver.
+Le coût de la recherche simple est en O(n).
 
-```
-Output :
-```python
-
-```
 
 ## 8) Quel est, au pire, le coût d’une recherche dichotomique ? (1 point)
 
