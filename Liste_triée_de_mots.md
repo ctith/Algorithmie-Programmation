@@ -23,7 +23,7 @@ Output :
 ## 2) Construire une fonction qui vérifie que la liste chargée à la question précédente est triée. (4 points)
 Input :
 ```python
-def bool_tri (mot) :
+def bool_liste_tri (mot) :
     # range() : permet de créer une liste avec 3 paramètres : 1. numéro de départ de la liste, 2. dernier nombre de la liste et 3.incrément entre chaque nombre généré (par défaut, 1)
     # len() :  retourne le nombre d'éléments d'une chaîne de caractères ou d'une liste.
     for i in range (1, len (mot)) :
@@ -31,7 +31,7 @@ def bool_tri (mot) :
             return False
         return True
 
-tri = bool_tri (mot)
+tri = bool_liste_tri (mot)
 print "Liste triée ?", tri
 ```
 Output :
@@ -43,7 +43,11 @@ Liste triée ? True
 > Cette fonction prend deux paramètres : la liste et le mot à chercher. Elle retourne un entier. On précise que pour savoir si deux chaînes de caractères sont égales, il faut utiliser l’opérateur ==. 
 Input :
 ```python
-
+def mot_dans_liste(liste, mot):
+    for i in range(0, len(liste)):
+        liste[i] == mot
+        return i
+    return -1
 ```
 Output :
 ```python
