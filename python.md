@@ -8,6 +8,8 @@ Kenny quickly writes up his class roster using the Python programming language a
 What does that mean?
 An algorithm is a step-by-step solution to a general type of problem. To solve this student-pairing problem, Kenny needs to write a sorting algorithm
 
+![](https://github.com/ctith/Algorithmie-Programmation/blob/master/2018-09-02%2020_12_49-Survey%20of%20Computer%20Science%20_%20Codecademy.png?raw=truevg)
+
 ```python
 # This is a Python Dictionary that contains all of the students in Kenny's class as well as their grades.
 student_grades = {"Jeremy" : 87, "Kyla" : 82, "Ayesha" : 90, "Aleida" : 94, "Todd" : 79, "Maxwell" : 98, "Yolonda" : 81, "Kiyoko" : 71, "Dagmar" : 73, "Laura" : 91, "Shimeah" : 81, "Songqiao" : 92, "Frankie" : 87, "Natalia" : 95, "Gonzalo" : 82, "Pavel" : 78}
